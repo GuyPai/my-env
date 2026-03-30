@@ -1,5 +1,5 @@
 # Install components:
-##(https://gist.github.com/tatumroaquin/c6464e1ccaef40fd098a4f31db61ab22)
+(https://gist.github.com/tatumroaquin/c6464e1ccaef40fd098a4f31db61ab22)
 
 sudo pacman -S qemu-full qemu-img libvirt virt-install virt-manager virt-viewer \
       edk2-ovmf dnsmasq swtpm guestfs-tools libosinfo tuned
