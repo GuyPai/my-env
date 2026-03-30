@@ -14,13 +14,13 @@ sudo vim /etc/libvirt/network.conf
 ## add:
 firewall_backend = "iptables"
 
-# Download guest tools:
+## Download guest tools:
 
-## Go to: https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/?C=M;O=D ,
-## and download the latest iso file for example: "/virtio-win-0.1.285-1/virtio-win-0.1.285.iso"
+Go to: https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/?C=M;O=D ,
+and download the latest iso file for example: "/virtio-win-0.1.285-1/virtio-win-0.1.285.iso"
 
 # Install FreeRDP (optional):
 sudo pacman -S freerdp
 
-## execute:
+execute:
 xfreerdp3 /v:192.168.122.123 /u:gdfg /dynamic-resolution /clipboard /multimon /f
