@@ -11,7 +11,7 @@ sudo usermod -aG libvirt $USER
 ## update network configuration file:
 sudo vim /etc/libvirt/network.conf
 
-## add:
+add:
 firewall_backend = "iptables"
 
 ## Download guest tools:
